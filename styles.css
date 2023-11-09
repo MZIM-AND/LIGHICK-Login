@@ -1,0 +1,140 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif, "poppins";
+  background-color: rgb(139, 129, 129);
+  color: white;
+}
+
+/*all the holder styles are nested in the below section*/
+
+#holder{
+  height: 400px;
+  width: 700px;
+  background-color: black;
+  margin: auto;
+  margin-top: 3rem;
+  box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.3);
+  display: flex;
+}
+h7{
+  margin: auto;
+  font-size: 25px;
+}
+.box1{
+  height: 400px;
+  width: 50%;
+  background-color: black;
+}
+
+.box2{
+  height: 400px;
+  width: 50%;
+  background-image: url("https://images.unsplash.com/photo-1436891620584-47fd0e565afb?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*All logo styles below*/
+
+#logo{
+  display: flex;
+}
+
+.logo-circle{
+  height: 50px;
+  width: 50px;
+  background-image: linear-gradient(to bottom, purple,red);
+  border-radius: 100%;
+  Margin-top: 2rem;
+  margin-left: 2rem;
+  color: white;
+  display: flex;
+  opacity: 95%;
+}
+
+h1{
+  margin-top: 2.5rem;
+  margin-left: 1rem;
+  opacity: 0.9;
+}
+
+h2{
+  opacity: 0.9;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.credentials{
+  text-align: center;
+  font-size: 15px;
+  opacity: 0.9;
+  margin-top: 1rem;
+}
+
+/*All form styles are below this section*/
+
+label, input{
+  display: block;
+  margin-left: 2.6rem;
+}
+
+label{
+  margin-top: 1rem;
+}
+
+input{
+  margin-top: 0.5rem;
+  height: 30px;
+  width: 260px
+}
+
+.checkbox{
+  height: 15px;
+  width: 15px;
+}
+
+#reminder{
+  display: flex;
+}
+
+.reminder{
+  margin-top: 0.5rem;
+  margin-left: 0.3rem;
+  font-size: 12px;
+}
+
+/*logi button styles here*/
+.login{
+  height: 30px;
+  width: 260px;
+  margin-left: 2.5rem;
+  margin-top: 0.5rem;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login:hover{
+  background-color: #fff;
+  color:  black;
+  transition: 0.4s ease;
+}
+
+#bottom-section{
+  display: flex;
+  margin-left: 2.5rem;
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.signup{
+  margin-left: 1rem;
+}
